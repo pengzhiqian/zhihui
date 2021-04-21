@@ -130,8 +130,8 @@
           >{{item.dictLabel}}</el-option>
         </el-select>
       </div>
-      <el-button type="primary" icon="el-icon-search" @click="Chaxun">查询</el-button>
-      <el-button plain icon="el-icon-refresh">重置</el-button>
+      <el-button type="primary" icon="el-icon-search" @click="Chaxun" class="chaxun">查询</el-button>
+      <el-button plain icon="el-icon-refresh" class="chongz">重置</el-button>
     </div>
 
     <el-row class="el_row_1">
@@ -145,7 +145,7 @@
         ref="multipleTable"
         :data="jb"
         tooltip-effect="dark"
-        style="width: 77%"
+        style="width: 85%"
         @selection-change="handleSelectionChange"
       >
         <el-table-column type="selection" width="55"></el-table-column>
@@ -560,6 +560,7 @@ export default {
 </script>
 
  <style scoped>
+
 .div_d {
   width: 1641px;
   height: 848px;

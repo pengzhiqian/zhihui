@@ -122,7 +122,7 @@ export default {
 
 <style lang="less" scoped>
 .sidebar-logo {
-  width: 35px;
+  width: 55px;
   height: 35px;
   padding-left: 20px;
 }

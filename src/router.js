@@ -5,6 +5,12 @@ import Home from './components/Home.vue'
 import Bclass from './components/Bclass.vue'
 import Bdormitory from './components/Bdormitory.vue'
 import Index from './components/Index.vue'
+import Bstudent from './components/Bstudent.vue'
+import Sdhygiene from './components/Sdhygiene.vue'
+import Sdattence from './components/Sdattence.vue'
+import Sddevice from './components/Sddevice.vue'
+import Sdleave from './components/Sdleave.vue'
+import Sdattenceexception from './components/Sdattenceexception.vue'
 Vue.use(Router)
 
 const router = new Router({
@@ -27,7 +33,13 @@ const router = new Router({
                 children: [
                     { path: '/bclass', component: Bclass },
                     { path: '/bdormitory', component: Bdormitory },
-                    { path: '/index', component: Index }
+                    { path: '/index', component: Index },
+                    { path: '/bstudent', component: Bstudent },
+                    { path: '/sdhygiene', component: Sdhygiene },
+                    { path: '/sdattence', component: Sdattence },
+                    { path: '/sddevice', component: Sddevice },
+                    { path: '/sdleave', component: Sdleave },
+                    { path: '/sdattenceexception', component: Sdattenceexception }
                 ]
             },
 
